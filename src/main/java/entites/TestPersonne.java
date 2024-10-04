@@ -6,14 +6,12 @@ public class TestPersonne {
 
     public static void main(String[] args) {
 
-        Personne pers1 = new Personne();
-        pers1.nom = "Jackson";
-        pers1.prenom = "Mickael";
-        pers1.adressePostale = new AdressePostale();
-        pers1.adressePostale.numeroRue = 2;
-        pers1.adressePostale.libelleRue = "de la rue";
-        pers1.adressePostale.codePostal = 12345;
-        pers1.adressePostale.ville = "Marseille";
+
+        AdressePostale adressePostale = new AdressePostale(2, "de la rue", 12345, "Marseille");
+
+
+        Personne pers1 = new Personne("Jackson", "Michael");
+        Personne pers2 = new Personne("Jackson", "Michael", adressePostale);
 
     }
 }
