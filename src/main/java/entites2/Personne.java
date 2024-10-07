@@ -32,8 +32,8 @@ public class Personne {
         this.prenom = nvPrenom;
     }
 
-    public void setAdresse(int numeroRue, String libelleRue, int codePostal, String ville) {
-        this.adressePostale = new AdressePostale(numeroRue, libelleRue, codePostal, ville);
+    public void setAdresse(AdressePostale adr) {
+        this.adressePostale = adr;
     }
 
     public String getNom() {
