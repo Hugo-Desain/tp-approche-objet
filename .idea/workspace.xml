@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/CreationListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/FusionListe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/Pays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestPays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestSetDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestSetString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,10 @@
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestOperations.executor": "Run",
+    "Application.TestPays.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestSetDouble.executor": "Run",
+    "Application.TestSetString.executor": "Run",
     "Application.TestTheatre.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,20 +68,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestVilles">
-    <configuration name="CreationListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.CreationListe" />
-      <module name="tp-approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestPays">
     <configuration name="FusionListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.FusionListe" />
       <module name="tp-approche-objet" />
@@ -94,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeInt" />
+    <configuration name="TestPays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.TestPays" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListeString" />
+    <configuration name="TestSetDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.TestSetDouble" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSetString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sets.TestSetString" />
+      <module name="tp-approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPays" />
         <item itemvalue="Application.TestVilles" />
-        <item itemvalue="Application.TestListeString" />
-        <item itemvalue="Application.TestListeInt" />
         <item itemvalue="Application.FusionListe" />
-        <item itemvalue="Application.CreationListe" />
+        <item itemvalue="Application.TestSetString" />
+        <item itemvalue="Application.TestSetDouble" />
       </list>
     </recent_temporary>
   </component>
