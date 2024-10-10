@@ -17,6 +17,14 @@ public class TestVilles {
         listeVilles.add(new Ville("Marseille,", 850700));
         listeVilles.add(new Ville("Tarbes,", 40600));
 
+
+        Collections.sort(listeVilles);
+
+        for (Ville ville : listeVilles) {
+            System.out.println(ville);
+        }
+
+
         Ville villeMax = listeVilles.get(0);
         for (Ville item: listeVilles) {
             if (item.getHabitants() > villeMax.getHabitants()) {
@@ -39,7 +47,7 @@ public class TestVilles {
             }
         }
 
-        System.out.println(listeVilles.toString());
+//        System.out.println(listeVilles.toString());
     }
 
 }

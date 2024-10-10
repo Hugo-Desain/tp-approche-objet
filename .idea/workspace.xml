@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sets/Pays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestPays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestSetDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sets/TestSetString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestPays">
+  <component name="RunManager" selected="Application.TestVilles">
     <configuration name="FusionListe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.FusionListe" />
       <module name="tp-approche-objet" />
@@ -136,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPays" />
         <item itemvalue="Application.TestVilles" />
+        <item itemvalue="Application.TestPays" />
         <item itemvalue="Application.FusionListe" />
         <item itemvalue="Application.TestSetString" />
         <item itemvalue="Application.TestSetDouble" />
@@ -177,11 +175,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/listes/TestListeString.java</url>
           <line>13</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/listes/TestVilles.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/fr/diginamic/maison/Maison.java</url>

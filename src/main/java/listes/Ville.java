@@ -1,8 +1,8 @@
 package listes;
 
-public class Ville {
+public class Ville implements Comparable<Ville>{
     protected String nom;
-    protected int habitants;
+    protected Integer habitants;
 
     public String getNom() {
         return nom;
@@ -28,5 +28,10 @@ public class Ville {
     @Override
     public String toString() {
         return "Ville : " + nom + " " + habitants + " hab. '\n'";
+    }
+
+    @Override
+    public int compareTo(Ville autre) {
+        return this.habitants.compareTo(autre.getHabitants());
     }
 }
