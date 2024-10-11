@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/ApplicationRecensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Departement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Recensement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Ville.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/PopulationDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/PopulationRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/PopulationVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/Top10Departements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/Top10Regions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/Top10VillesDepartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/Top10VillesFrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/Top10VillesRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/ComptagePaysParContinent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/CreationEtManipulationMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/CreationMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/FusionMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/MapVilles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fichier/CrerFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fichier/CrerFichier.java" afterDir="false" />
-    </list>
+    <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

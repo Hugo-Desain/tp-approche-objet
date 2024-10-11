@@ -11,7 +11,7 @@ public class ApplicationRecensement {
 
     public static void main(String[] args) throws IOException {
         Recensement recensement = new Recensement();
-        chargerDonneesRecensement("/home/hugod/Java/tp-approche-objet/src/main/resources/recensement.csv", recensement);
+        chargerDonneesRecensement("src/main/resources/recensement.csv", recensement);
 
         Scanner scanner = new Scanner(System.in);
         int choix = 0;
