@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaine/TestStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaine/TestCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaine/TestStringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/chaine/TestStringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/MenuService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,8 @@
     "Application.Salarie.executor": "Run",
     "Application.TastAdressPostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestCalendar.executor": "Run",
+    "Application.TestDates.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
     "Application.TestListeString.executor": "Run",
@@ -71,10 +77,11 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestStringBuilder">
+  <component name="RunManager" selected="Application.TestCalendar">
     <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
       <module name="tp-approche-objet" />
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FusionMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.FusionMap" />
+    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaine.TestCalendar" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="fr.diginamic.chaine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MapVilles" />
+    <configuration name="TestDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.dates.TestDates" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="fr.diginamic.dates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCalendar" />
+        <item itemvalue="Application.TestDates" />
         <item itemvalue="Application.TestStringBuilder" />
         <item itemvalue="Application.ApplicationRecensement" />
         <item itemvalue="Application.ComptagePaysParContinent" />
-        <item itemvalue="Application.MapVilles" />
-        <item itemvalue="Application.FusionMap" />
       </list>
     </recent_temporary>
   </component>
