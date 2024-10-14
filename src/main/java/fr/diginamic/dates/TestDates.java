@@ -11,7 +11,7 @@ public class TestDates {
         String chaine1 = formateur.format(date1);
         System.out.println(chaine1);
 
-        SimpleDateFormat formateur2 = new SimpleDateFormat("dd/MM/yyy HH:mm:ss");
+        SimpleDateFormat formateur2 = new SimpleDateFormat("yyy/MM/dd HH:mm:ss");
         Date date2 = new Date(116, 18, 5, 23, 59, 30);
         String chaine2 = formateur2.format(date2);
         System.out.println(chaine2);
@@ -20,9 +20,5 @@ public class TestDates {
         String chaine3 = formateur2.format(date3);
         System.out.println(chaine3);
     }
-
-
-
-
 
 }

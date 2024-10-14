@@ -33,5 +33,16 @@ public class Ville implements Comparable<Ville>{
     @Override
     public int compareTo(Ville autre) {
         return this.habitants.compareTo(autre.getHabitants());
+
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (!(object instanceof Ville)) {
+            return false;
+        }
+        Ville other = (Ville) object;
+        return this.nom.equals(other.getNom()) && habitants == getHabitants();
+    }
+
 }
