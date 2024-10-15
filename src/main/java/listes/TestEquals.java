@@ -1,11 +1,13 @@
 package listes;
 
+import fr.diginamic.testenumeration.Continent;
+
 public class TestEquals {
     public static void main(String[] args) {
 
-        Ville ville1 = new Ville("Montpellier,", 150000);
-        Ville ville2 = new Ville("Montpellier,", 150000);
-        Ville ville3 = new Ville("Nice", 343000);
+        Ville ville1 = new Ville("Montpellier,", 150000, Continent.EUROPE);
+        Ville ville2 = new Ville("Montpellier,", 150000, Continent.EUROPE);
+        Ville ville3 = new Ville("Nice", 343000, Continent.EUROPE);
 
         boolean result1 = ville1.equals(ville2);
         System.out.println("Mêmes attributs avec equals() : " + result1);

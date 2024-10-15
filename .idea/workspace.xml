@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d54c9495-01e2-400b-b7a7-eac354e35992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/Saison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/TestEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/Continent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/TestContinentAvecEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dates/TestDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/Saison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/Saison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/TestEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/testenumeration/TestEnumeration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/MapVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/MapVilles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +58,9 @@
     "Application.TastAdressPostale.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestCalendar.executor": "Run",
+    "Application.TestContinentAvecEnum.executor": "Run",
     "Application.TestDates.executor": "Run",
+    "Application.TestEnumeration.executor": "Run",
     "Application.TestEquals.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestListeInt.executor": "Run",
@@ -84,13 +89,13 @@
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestEquals">
-    <configuration name="ApplicationRecensement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.recensement.ApplicationRecensement" />
+  <component name="RunManager" selected="Application.TestContinentAvecEnum">
+    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaine.TestCalendar" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.recensement.services.*" />
+          <option name="PATTERN" value="fr.diginamic.chaine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaine.TestCalendar" />
+    <configuration name="TestContinentAvecEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.testenumeration.TestContinentAvecEnum" />
       <module name="tp-approche-objet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaine.*" />
+          <option name="PATTERN" value="fr.diginamic.testenumeration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEnumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.testenumeration.TestEnumeration" />
+      <module name="tp-approche-objet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.testenumeration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listes.TestEquals" />
       <module name="tp-approche-objet" />
@@ -137,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.diginamic.chaine.TestStringBuilder" />
-      <module name="tp-approche-objet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.diginamic.chaine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestContinentAvecEnum" />
         <item itemvalue="Application.TestEquals" />
+        <item itemvalue="Application.TestEnumeration" />
         <item itemvalue="Application.TestCalendar" />
         <item itemvalue="Application.TestDates" />
-        <item itemvalue="Application.TestStringBuilder" />
-        <item itemvalue="Application.ApplicationRecensement" />
       </list>
     </recent_temporary>
   </component>
